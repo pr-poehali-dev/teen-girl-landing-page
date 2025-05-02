@@ -65,7 +65,7 @@ const About = () => {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-pink-light p-2">
               <img 
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
+                src="https://cdn.poehali.dev/files/4d7942ca-3ac5-4870-8503-961f38a2d37d.jpg" 
                 alt="Фото Ирины" 
                 className="w-full h-full object-cover rounded-full"
               />

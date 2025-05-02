@@ -6,6 +6,11 @@ import Icon from './ui/icon';
 const Gallery = () => {
   const images = [
     {
+      src: "https://cdn.poehali.dev/files/4d7942ca-3ac5-4870-8503-961f38a2d37d.jpg",
+      alt: "Портрет Ирины",
+      category: "art"
+    },
+    {
       src: "https://images.unsplash.com/photo-1581467689825-372a67b0de5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
       alt: "Фотография природы",
       category: "photo"
@@ -29,22 +34,16 @@ const Gallery = () => {
       src: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       alt: "Путешествие",
       category: "travel"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1513001900722-370f803f498d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      alt: "Книги",
-      category: "books"
     }
   ];
 
   const categories = [
     { id: "all", name: "Все" },
+    { id: "art", name: "Рисунки" },
     { id: "photo", name: "Фотографии" },
     { id: "music", name: "Музыка" },
     { id: "dance", name: "Танцы" },
-    { id: "art", name: "Рисунки" },
     { id: "travel", name: "Путешествия" },
-    { id: "books", name: "Книги" },
   ];
 
   const [activeCategory, setActiveCategory] = useState("all");

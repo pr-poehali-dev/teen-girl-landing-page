@@ -15,11 +15,18 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
+          <div className="mb-8 mx-auto w-40 h-40 sm:w-48 sm:h-48 rounded-full overflow-hidden border-4 border-white/50 shadow-xl">
+            <img 
+              src="https://cdn.poehali.dev/files/4d7942ca-3ac5-4870-8503-961f38a2d37d.jpg" 
+              alt="Ирина" 
+              className="w-full h-full object-cover"
+            />
+          </div>
           <h1 className="font-cursive text-5xl sm:text-6xl md:text-7xl text-pink-dark mb-6 leading-tight">
             Привет, я Ирина!
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-foreground mb-8">
-            Добро пожаловать на мою страничку! Я увлекаюсь творчеством, музыкой и танцами.
+            Добро пожаловать на мою страничку! Я увлекаюсь фотографией, музыкой и рисованием.
             Здесь вы можете узнать больше обо мне и моих интересах.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
