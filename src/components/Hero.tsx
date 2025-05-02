@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="font-cursive text-5xl sm:text-6xl md:text-7xl text-pink-dark mb-6 leading-tight">
-            Привет, я Алиса!
+            Привет, я Ирина!
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-foreground mb-8">
             Добро пожаловать на мою страничку! Я увлекаюсь творчеством, музыкой и танцами.

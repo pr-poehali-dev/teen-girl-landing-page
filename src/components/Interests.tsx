@@ -4,43 +4,43 @@ import Icon from './ui/icon';
 const Interests = () => {
   const interestItems = [
     {
-      title: "Рисование",
-      description: "Я обожаю рисовать акварелью и цифровую иллюстрацию. Сейчас изучаю графический дизайн.",
-      icon: "Palette",
+      title: "Фотография",
+      description: "Я обожаю фотографировать природу и портреты. Мечтаю о профессиональной камере и создании фотовыставки.",
+      icon: "Camera",
       color: "bg-pink-light",
       iconBg: "bg-pink"
     },
     {
       title: "Музыка",
-      description: "Играю на гитаре и пианино. Люблю инди-рок и поп-музыку, пишу свои песни.",
+      description: "Играю на фортепиано и немного на укулеле. Люблю современную музыку и классику.",
       icon: "Music",
       color: "bg-purple-light",
       iconBg: "bg-purple"
     },
     {
       title: "Танцы",
-      description: "Занимаюсь современными танцами уже 5 лет. Мой любимый стиль — k-pop и contemporary.",
+      description: "Занимаюсь современными танцами уже 4 года. Особенно нравится хип-хоп и джаз-фанк.",
       icon: "Music2",
       color: "bg-mint-light",
       iconBg: "bg-mint-dark"
     },
     {
-      title: "Фотография",
-      description: "Люблю снимать природу и своих друзей. Мечтаю о хорошей камере и изучаю фотошоп.",
-      icon: "Camera",
+      title: "Рисование",
+      description: "Люблю рисовать акварелью и маркерами, создавать скетчи и иллюстрации.",
+      icon: "PenTool",
       color: "bg-pink-light",
       iconBg: "bg-pink"
     },
     {
       title: "Путешествия",
-      description: "Обожаю путешествовать с семьей. Больше всего меня впечатлил Санкт-Петербург и Сочи.",
-      icon: "Plane",
+      description: "Мечтаю объехать весь мир. Пока была в Сочи, Казани и Санкт-Петербурге.",
+      icon: "MapPin",
       color: "bg-purple-light",
       iconBg: "bg-purple"
     },
     {
       title: "Чтение",
-      description: "Люблю фантастику и современную литературу. Мой любимый автор — Рэй Брэдбери.",
+      description: "Обожаю романы Джоан Роулинг и книги о путешествиях и приключениях.",
       icon: "BookOpen",
       color: "bg-mint-light",
       iconBg: "bg-mint-dark"

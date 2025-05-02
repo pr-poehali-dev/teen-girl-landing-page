@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <a href="#home" className="font-cursive text-2xl inline-block mb-2">Алиса</a>
+            <a href="#home" className="font-cursive text-2xl inline-block mb-2">Ирина</a>
             <p className="text-white/80 max-w-md">
               Моя личная страничка о творчестве, увлечениях и всём, что мне интересно.
             </p>
@@ -31,7 +31,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-white/80 text-sm">
-              &copy; {currentYear} Алиса. Все права защищены.
+              &copy; {currentYear} Ирина. Все права защищены.
             </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ const Footer = () => {
             </ul>
           </nav>
           <p className="text-white/60 text-sm">
-            Сделано с <Icon name="Heart" className="inline-block text-pink-light h-4 w-4" /> в 2023
+            Сделано с <Icon name="Heart" className="inline-block text-pink-light h-4 w-4" /> в {currentYear}
           </p>
         </div>
       </div>

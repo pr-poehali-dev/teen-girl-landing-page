@@ -48,7 +48,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                <p className="text-foreground/70">alisa@example.com</p>
+                <p className="text-foreground/70">irina@example.com</p>
               </div>
             </div>
             
@@ -82,7 +82,7 @@ const Contact = () => {
                   <Icon name="Twitter" className="text-purple-dark h-5 w-5" />
                 </a>
                 <a href="#" className="w-10 h-10 rounded-full bg-mint-light flex items-center justify-center hover:bg-mint-dark transition-colors">
-                  <Icon name="Youtube" className="text-mint-dark h-5 w-5" />
+                  <Icon name="Youtube" className="text-purple-dark h-5 w-5" />
                 </a>
                 <a href="#" className="w-10 h-10 rounded-full bg-pink-light flex items-center justify-center hover:bg-pink transition-colors">
                   <Icon name="Smartphone" className="text-pink-dark h-5 w-5" />
